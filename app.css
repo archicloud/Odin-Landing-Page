@@ -1,0 +1,57 @@
+.app-logo {
+max-height: 60px;
+padding-right: 2%;    
+}           
+
+.text-logo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;   
+    letter-spacing: .75px; 
+    display: inline;    
+    color: white;
+}   
+
+.main-body {    
+    margin: 0px;    
+    padding: 0px;
+ }
+ 
+
+#header {
+    background-color: #FA7070;
+    
+}
+
+/* for navbar */
+
+.navbar {
+    display: flex;
+    padding: 0% 5%;
+    justify-content: space-between;
+   
+    
+}
+
+.header-logo {
+ display: flex;
+ align-items: center;
+ flex-basis: 40%;
+ justify-content: flex-start;
+ 
+}   
+
+.header-link {  
+    display: flex;  
+    align-items: center;
+    justify-content: flex-end;  
+    
+}
+
+.Features, .Testimonials, .Contact-us {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+/* for navbar */
