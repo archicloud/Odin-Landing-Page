@@ -7,14 +7,14 @@
  
 
 #header {
-    background-color: #8D9EFF  ;
+    
 }
 
 /* for navbar */
 
 .navbar {
     display: flex;
-    padding: 0% 5%;
+    padding: 0% 9%;
     justify-content: space-between;
    
     
@@ -40,9 +40,9 @@
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: space-around;
-    padding: 5px;
+    padding: 20px;
     font-weight: 600;
-    color: white;
+    color: #6C4AB6;
 }
 
 .app-logo {
@@ -55,7 +55,7 @@
         font-size: 1.5em;   
         letter-spacing: .75px; 
         display: inline;
-        color: white;       
+        color: #6C4AB6;      
     }   
 /* for navbar */
 
@@ -71,13 +71,13 @@ flex-grow: 1;
 
 .header-body {
 display: flex;
-padding: 5% 5% 5%;
+padding: 9% 9% 4.5%;
 justify-content: space-between;
 
 }
 
 .header-intro {
-
+padding-right: 80px;
 }
 
 .header-image { 
@@ -88,26 +88,37 @@ flex-grow: 1;
 font-family: 'League Spartan', sans-serif;
 font-size: 8em;
 text-transform: uppercase;
-color: white;
+color: #6C4AB6;
 font-weight: 700;
+margin-bottom: 0 0;
+text-align: center;
 }
 
 .intro-subtext {
     font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-weight: 400;
-    font-size: 1.2em;
+    color: #6C4AB6;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 /* Buttons */
-.android-button, .ios-button {
-    background-color: DodgerBlue; 
+.signup-button {
+    background-color: #6C4AB6; 
   border: none; 
   color: white; 
-  font-size: 12px; 
+  font-size: 25px; 
   cursor: pointer; 
   padding: 20px 21px;
+  border-radius: 12px;
+  min-height: 30px;
+  min-width: 120px;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+.signup-button:hover {
+   background-color: #8D72E1;
+   transition: 0.5s;
 }
 
 .button-container {
@@ -117,8 +128,44 @@ font-weight: 700;
     justify-content: space-between;
     padding: 12px 12px;
     row-gap: 12px;
+    
 }
 /* Buttons */
 
+
+/* Product-features */
+.product-features {
+    padding: 4.5% 9%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-feature-header {
+align-items: center;
+flex-basis: 100%;
+}
+
+.feature-image-1, .feature-image-2, .feature-image-3, .feature-image-4 {
+    width: 250px;
+}
+
+.feature-1 {
+flex-basis: 25%;
+}
+
+.feature-2 {
+    flex-basis: 25%;
+}
+
+.feature-3 {
+    flex-basis: 25%;
+}
+
+.feature-4 {
+    flex-basis: 25%;
+}
+
+
+/* Product-features */
 
 /* For header body */
