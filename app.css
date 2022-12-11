@@ -7,7 +7,7 @@
  
 
 #header {
-    
+    background-color: #FFE1E1;
 }
 
 /* for navbar */
@@ -37,12 +37,12 @@
 
 .Features, .Testimonials, .Contact-us {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    font-weight: 600;
-    color: #6C4AB6;
+    font-weight: 700;   
+    color: #829460;
 }
 
 .app-logo {
@@ -51,11 +51,11 @@
     }           
     
     .text-logo {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-size: 1.5em;   
         letter-spacing: .75px; 
-        display: inline;
-        color: #6C4AB6;      
+        display: inline;    
+        color: #829460;      
     }   
 /* for navbar */
 
@@ -67,21 +67,17 @@ height: 600px;
 height: 500px;
 margin: auto;
 
-
 }
 
 .header-body {
 display: flex;
 padding: 9% 9% 4.5%;
 flex-wrap: wrap;
-
-
 }
 
 .header-intro {
 padding: 5%;
 flex: 1;
-
 }
 
 .header-image    { 
@@ -91,44 +87,46 @@ align-items: center;
 justify-content: center;
 flex: 1;
 
-
-
 }
 
 .intro-header {
-font-family: 'League Spartan', sans-serif;
+    font-family: 'Raleway', sans-serif;
 font-size: 8em;
 text-transform: uppercase;
-color: #6C4AB6;
+color: #829460;
 font-weight: 700;
 text-align: center;
-}
+line-height: .9em;
+}   
 
 .intro-subtext {
-    font-family: 'Montserrat', sans-serif;
-    color: #6C4AB6;
-    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #829460;
+    font-weight: 300;
     font-size: 1.5em;
     text-align: center;
+    
 }
 
 /* Buttons */
 .signup-button {
-    background-color: #6C4AB6; 
+    background-color: #90A17D; 
   border: none; 
   color: white; 
   font-size: 25px; 
   cursor: pointer; 
-  padding: 20px 21px;
+  padding: 20px 21px;   
   border-radius: 12px;
+  border-color: #90A17D;
   min-height: 30px;
   min-width: 120px;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .signup-button:hover {
-   background-color: #8D72E1;
+   background-color: #C7BCA1;
    transition: 0.5s;
+
 }
 
 .button-container {
@@ -152,13 +150,14 @@ text-align: center;
 
 
 .product-feature-header {
-padding: 2% 9% 0%;
+padding: 6% 9% 0%;
 text-align: center;
 }
 
 .feature-image-1, .feature-image-2, .feature-image-3, .feature-image-4 {
-    width: 250px;
+    width: 150px;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .feature-1 {
@@ -172,12 +171,84 @@ padding: 2% 2% 0%;
     flex: 1;
     text-align: center;
     padding: 2% 2% 2%;
+
     
 }
 
-    
+.product-feature-div {
+    background-color: #90A17D;
+} 
 
+.product-feature-text {
+    font-family: 'Raleway', sans-serif;
+   font-size: 2em;
+   color: white;
+   text-transform: uppercase;
+}
 
+.product-highlight {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.product-subtext {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    line-height: 1.4em;
+}
 /* Product-features */
+
+/* Product Testimonial */
+
+.product-testimonial {
+    padding: 2% 9% 2%;
+    background-color: #EEEEEE;
+}
+
+.testimonial-header {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding: 6% 9% 0%;
+}
+
+.user-quote {
+    margin: 10px 30px;
+    padding: 25px;
+    color: #0b4237;
+    box-sizing: border-box;
+}
+
+.user-quote-text {
+    font-style: italic;
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin: 5% 0% 5%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.user-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.user-div {
+    text-align: center;
+}
+
+.user-name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+/* Product Testimonial */
 
 /* For header body */
