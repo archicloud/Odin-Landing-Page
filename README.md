@@ -13,3 +13,4 @@ bunk: <a href="https://www.flaticon.com/free-icons/bunk-bed" title="bunk bed ico
 apartment <a href="https://www.flaticon.com/free-icons/apartment" title="apartment icons">Apartment icons created by monkik - Flaticon</a>
 house - <a href="https://www.flaticon.com/free-icons/diy" title="DIY icons">DIY icons created by Smashicons - Flaticon</a>
 secure - <a href="https://www.flaticon.com/free-icons/diy" title="DIY icons">DIY icons created by Smashicons - Flaticon</a>
+friends image - Photo by <a href="https://unsplash.com/@natejohnston?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nate Johnston</a> on <a href="https://unsplash.com/s/photos/filipino-friends?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
