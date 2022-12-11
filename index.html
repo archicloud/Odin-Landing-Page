@@ -32,9 +32,9 @@
                 <h4 class="text-logo">ROOMIES!</h4>
             </div>
             <div class="header-link">
-                <a class="Features" href="">Features</a>
-                <a class="Testimonials" href="">Testimonials</a>
-                <a class="Contact-us" href="">Contact Us</a>
+                <a class="Features" href="#product-feature-div">Features</a>
+                <a class="Testimonials" href="#product-testimonial">Testimonials</a>
+                <a class="Contact-us" href="#footer-div">Contact Us</a>
             </div>
         </div>
         <div class="header-body">
@@ -58,7 +58,7 @@
 
     <!-- Product Features Page -->
     <div id="body">
-        <div class="product-feature-div">
+        <div id="product-feature-div">
             <div class="product-feature-header">
                 <h2 class="product-feature-text">Room-matching made easier
                 </h2>
@@ -101,9 +101,8 @@
 
         <!-- Product Features Page -->
 
-        <div class="product-testimonial">
+        <div id="product-testimonial">
             <h1 class="testimonial-header">Users who already found their one, thanks to Roomies</h1>
-
 
             <div class="quote-div">
                 <blockquote class="user-quote">
@@ -134,7 +133,6 @@
                 </div>
             </div>
 
-
         </div>
     </div>
 
@@ -143,9 +141,34 @@
 <!-- Main Body -->
 
 <footer class="main-footer">
-    <div id="footer">
-        <div class="socials"></div>
-        <div class="contact-us"></div>
+    <div id="footer-div">
+        <div class="socials">
+            <!-- logos -->
+            <h3 class="footer-socials">Follow us on our socials</h3>
+            <!-- icons with clickable links -->
+            <div class="link-div"><a href="" class="socials-link"><i class="fa-brands fa-square-twitter fa-2x"></i></a>
+                <a href="" class="socials-link"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+                <a href="" class="socials-link"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
+            </div>
+        </div>
+
+        <div class="contact-us">
+            <!-- address -->
+            <h3 class="footer-contacts">Contact Us</h3>
+            <p class="address">42 Wallaby Way, Sydney</p>
+            <!-- sign-up for newsletter -->
+        </div>
+
+        <div class="newsletter">
+            <h3 class="footer-newsletter">Sign up on our newsletter</h3>
+            <form action="" method="get" class="form-subscription">
+                <div class="email-form-div">
+                    <label for="email">Enter your email: </label>
+                    <input type="email" name="email" id="email" required>
+                    <input type="submit" value="Subscribe!" class="newsletter-button">
+                </div>
+            </form>
+        </div>
     </div>
 </footer>
 
