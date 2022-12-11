@@ -181,7 +181,7 @@ padding: 2% 2% 0%;
 
 .product-feature-text {
     font-family: 'Raleway', sans-serif;
-   font-size: 2em;
+   font-size: 3.5em;
    color: white;
    text-transform: uppercase;
 }
@@ -212,6 +212,7 @@ padding: 2% 2% 0%;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     padding: 6% 9% 0%;
+    font-size: 3.5em;
 }
 
 .user-quote {
@@ -225,9 +226,10 @@ padding: 2% 2% 0%;
     font-style: italic;
     font-size: 1.5em;
     line-height: 1.5;
-    margin: 5% 0% 5%;
+    margin: 5% 0% 10%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .user-image {
@@ -248,7 +250,56 @@ padding: 2% 2% 0%;
 .user-name {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    
+}
+
+.quote-div {
+    margin-bottom: 5%;
 }
 /* Product Testimonial */
+
+
+/* Call-to-Action */
+.product-invitation {
+    background-color: white;
+    margin: 5% 9% 5%;
+}
+
+.invitation-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.invitation-image {
+    width: 1000px;
+    flex: 1;
+    margin-right: 50px;
+}
+
+.text-div {
+    flex: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+}
+
+.invitation-header {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding: 6% 9% 0%;
+    color: #829460;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.invitation-subtext {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #829460;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+/* Call-to-Action */
 
 /* For header body */
